@@ -39,7 +39,7 @@ export default function Contact() {
 		<>
 			<main id="contact" className={styles.main}>
 				<h3>Contact Me</h3>
-				<h1 className="font-sans text-5xl p-0.5 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
+				<h1 className="font-sans text-5xl mb-10 p-0.5 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
 					Need to reach me?
 				</h1>
 				<form action="https://formspree.io/f/xknyybrw" method="POST">
