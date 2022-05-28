@@ -17,24 +17,23 @@ export default function About() {
 						Who am I?
 					</h1>
 					<p className={styles["about-subheading"]}>
-						I’m a software developer who currently creates web applications with{" "}
+						I’m a software developer who currently creates web applications for{" "}
 						<span>
 							<a
-								href="https://www.google.ca"
+								href="/"
 								className={styles["content-underline"]}
-								target="_blank"
 								rel="noreferrer"
 							>
-								Team Aerexx
+								Aerexx Developments
 							</a>
 						</span>
 						.
 					</p>
 					<p className={styles["about-body"]}>
-						After graduating university, I've dedicated the last year learning
-						the fundamentals of programming to make a career shift into the tech
-						industry. I'd like to join an organization where I will be able to
-						continously learn and make impactful contributions.
+						I've dedicated the last year learning the fundamentals of
+						programming to make a career shift into the tech industry. I'd like
+						to join an organization where I will be able to continously learn
+						and make impactful contributions.
 					</p>
 					<p className={styles["about-body"]}>
 						When I'm not coding, you can find me playing with my dog Titan,
