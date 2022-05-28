@@ -14,3 +14,11 @@
 	letter-spacing: 0.25rem;
 	text-transform: uppercase;
 }
+
+.container {
+	min-width: 350px;
+	width: 100%;
+	max-width: 2000px;
+}
+
+
