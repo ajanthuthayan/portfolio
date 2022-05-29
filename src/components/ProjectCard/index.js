@@ -5,7 +5,7 @@ export default function ProjectCard(props) {
 	return (
 		<>
 			<div className={styles.card}>
-				<img src={image} alt="Sunset in the mountains" />
+				<img src={image} alt={`${title} project card`} />
 				<div className={styles.info}>
 					<h5>{title}</h5>
 					<div className="flex flex-row gap-2 justify-center items-center">

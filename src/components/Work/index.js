@@ -22,7 +22,7 @@ export default function Work() {
 		},
 		{
 			id: 3,
-			title: "Magic Eden Calculator",
+			title: "NFT Calculator",
 			liveLink: "https://magicedencalculator.vercel.app/",
 			githubRepo: "https://github.com/uajanth/magicedencalculator",
 			image: project3,

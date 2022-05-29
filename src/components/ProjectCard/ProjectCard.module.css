@@ -55,7 +55,8 @@
 .card .info h5 {
 	font-size: 2rem;
 	font-weight: 700;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
+	line-height: 1;
 }
 
 @media only screen and (min-width: 440px) {
