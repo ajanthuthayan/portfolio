@@ -1,9 +1,7 @@
 footer {
 	text-align: center;
-	width: 100vw;
+	width: 100%;
 	min-width: 350px;
-	max-width: 2000px;
-	color: #f8f9fa;
 }
 
 footer small {
