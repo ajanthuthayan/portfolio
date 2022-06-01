@@ -10,13 +10,13 @@ export default function Header() {
 				<h2 className="font-sans text-2xl font-bold color-white">
 					Software Developer
 				</h2>
-				<button
+				{/* <button
 					type="button"
 					className=" cursor-not-allowed text-white bg-gray-800 hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 mb-3 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-800 dark:border-gray-700"
 					disabled
 				>
 					View Resume
-				</button>
+				</button> */}
 			</header>
 		</>
 	);
