@@ -59,7 +59,7 @@ export default function Contact() {
 							<input
 								className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 mb-5"
 								type="text"
-								name="name"
+								name="full-name"
 								value={formData.name}
 								placeholder="John Smith"
 								onChange={nameHandler}
@@ -87,7 +87,7 @@ export default function Contact() {
 							<input
 								className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 mb-5"
 								type="email"
-								name="email"
+								name="email-address"
 								value={formData.email}
 								placeholder="name@example.com"
 								onChange={emailHandler}
