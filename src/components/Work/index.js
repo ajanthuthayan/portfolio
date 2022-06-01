@@ -8,23 +8,23 @@ export default function Work() {
 	const projects = [
 		{
 			id: 1,
-			title: "Work In Progress",
-			liveLink: "",
-			githubRepo: "",
+			title: "NFT Calculator",
+			liveLink: "https://magicedencalculator.vercel.app/",
+			githubRepo: "https://github.com/uajanth/magicedencalculator",
 			image: project1,
 		},
 		{
 			id: 2,
-			title: "Simple Blog v2",
-			liveLink: "https://simple-blog-v2.vercel.app/",
-			githubRepo: "https://github.com/uajanth/simple-blog-v2",
+			title: "Smart Brain",
+			liveLink: "https://uajanth-smartbrain.herokuapp.com/",
+			githubRepo: "https://github.com/uajanth/smartbrain",
 			image: project2,
 		},
 		{
 			id: 3,
-			title: "NFT Calculator",
-			liveLink: "https://magicedencalculator.vercel.app/",
-			githubRepo: "https://github.com/uajanth/magicedencalculator",
+			title: "Simple Blog v2",
+			liveLink: "https://simple-blog-v2.vercel.app/",
+			githubRepo: "https://github.com/uajanth/simple-blog-v2",
 			image: project3,
 		},
 	];
