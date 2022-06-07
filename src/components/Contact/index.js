@@ -63,7 +63,7 @@ export default function Contact() {
 									/>
 								</div>
 								<input
-									className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 mb-5"
+									className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 mb-3"
 									type="text"
 									name="full-name"
 									value={formData.name}
@@ -74,10 +74,9 @@ export default function Contact() {
 							</div>
 						</label>
 						<label>
-							<p className="text-sm font-medium block mb-2 dark:text-gray-300">
+							<p className="text-sm font-medium block dark:text-gray-300">
 								Email Address
 							</p>
-
 							<div className="mt-1 relative">
 								<div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
 									<svg
@@ -91,7 +90,7 @@ export default function Contact() {
 									</svg>
 								</div>
 								<input
-									className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 mb-5"
+									className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 mb-3"
 									type="email"
 									name="email-address"
 									value={formData.email}
@@ -102,12 +101,12 @@ export default function Contact() {
 							</div>
 						</label>
 						<label>
-							<p className="text-sm font-medium block mb-2 dark:text-gray-300">
+							<p className="text-sm font-medium block mb-1 dark:text-gray-300">
 								Message
 							</p>
 
 							<textarea
-								className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-2.5 p-2.5 mb-5"
+								className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-2.5 p-2.5 mb-6"
 								name="message"
 								value={formData.message}
 								placeholder="Leave a message..."
