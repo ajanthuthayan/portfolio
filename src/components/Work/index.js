@@ -32,7 +32,7 @@ export default function Work() {
 		<>
 			<section
 				id="work"
-				className="w-full flex flex-col items-center justify-center pb-32"
+				className="w-full flex flex-col items-center justify-center pt-16 pb-32"
 			>
 				<header className={styles.header}>
 					<h3>My Work</h3>

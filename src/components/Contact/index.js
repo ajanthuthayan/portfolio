@@ -39,7 +39,7 @@ export default function Contact() {
 		<>
 			<section
 				id="contact"
-				className="w-full flex flex-col items-center justify-center mb-10 pb-5"
+				className="w-full flex flex-col items-center justify-center pt-10 pb-10"
 			>
 				<header className={styles.header}>
 					<h3>Contact Me</h3>
