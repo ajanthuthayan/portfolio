@@ -1,21 +1,41 @@
-.main {
+.header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 5rem 0;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 2rem;
 }
 
-.main h4 {
+.header h1 {
+	padding-bottom: 1.25rem;
+}
+
+.header h4 {
 	color: #f8f9fa;
 	font-weight: 700;
 	letter-spacing: 0.25rem;
 	text-transform: uppercase;
 }
 
-.main form {
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.container h4 {
+	color: #f8f9fa;
+	font-weight: 700;
+	letter-spacing: 0.25rem;
+	text-transform: uppercase;
+}
+
+.container form {
 	background-color: rgb(25, 25, 25);
 	border-radius: 20px;
 	padding: 50px;
@@ -25,6 +45,6 @@
 	text-align: left;
 }
 
-.main form label {
+.container form label {
 	color: #aab4bd;
 }

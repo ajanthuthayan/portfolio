@@ -9,7 +9,7 @@ export default function About() {
 		<>
 			<section
 				id="about"
-				className="flex flex-col lg:flex-row items-center pt-5"
+				className="flex flex-col lg:flex-row items-center pt-5 pb-16"
 			>
 				<main className={styles.main}>
 					<h3>About Me</h3>
