@@ -20,11 +20,10 @@ nav ul li {
 	font-weight: 500;
 }
 
-nav ul li a:hover,
-nav ul li a:active {
+nav ul li a:hover {
+	cursor: pointer;
 	padding-bottom: 2px;
 	border-bottom: #93c5fd 4px solid;
-	cursor: pointer;
 }
 
 /* Large Screens */

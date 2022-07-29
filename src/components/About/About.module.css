@@ -42,6 +42,7 @@ h4 {
 	margin-top: 20px;
 	max-width: 600px;
 	text-align: left;
+	margin-bottom: 0.5rem;
 }
 
 .content-underline:link,
@@ -53,6 +54,7 @@ h4 {
 .content-underline:hover,
 .content-underline:active {
 	border-bottom: #f9a8d4 4px solid;
+	cursor: pointer;
 }
 
 aside {

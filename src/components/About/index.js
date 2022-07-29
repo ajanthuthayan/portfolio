@@ -1,7 +1,8 @@
 import styles from "./About.module.css";
+import { Link } from "react-scroll";
 import TechCard from "../TechCard";
 import expressLogo from "./expressjs-icon.svg";
-import postgresqlLogo from "./postgresql-icon.svg";
+import nextjs from "./nextjs-icon.svg";
 import mongodbLogo from "./mongodb-icon.svg";
 
 export default function About() {
@@ -17,24 +18,39 @@ export default function About() {
 						Who am I?
 					</h1>
 					<p className={styles["about-subheading"]}>
-						I’m a software developer who currently creates web applications for{" "}
-						<span>
+						I combined my background in business with programming to help people
+						save time and money
+						{/* <span>
 							<a
 								href="/"
 								className={styles["content-underline"]}
 								rel="noreferrer"
 							>
-								Aerexx Developments
-							</a>
-						</span>
+Link							</a>
+						</span> */}
 						.
 					</p>
 					<p className={styles["about-body"]}>
-						I've dedicated the last year learning the fundamentals of
-						programming to make a career shift into the tech industry. I'd like
-						to join an organization where I will be able to continously learn
-						and make impactful contributions.
+						I enjoy programming most when I'm challenged and see how my work
+						helps others. I'm always open to hearing about opportunities where I
+						can learn and make impactful contributions.{" "}
+						<Link
+							to="contact"
+							spy={true}
+							smooth={true}
+							offset={50}
+							duration={500}
+						>
+							<a
+								href="/"
+								className={styles["content-underline"]}
+								rel="noreferrer"
+							>
+								Want to chat?
+							</a>
+						</Link>
 					</p>
+
 					<p className={styles["about-body"]}>
 						When I'm not coding, you can find me playing with my dog Titan,
 						walking through scenic trails, or glued to self improvement books.
@@ -51,10 +67,10 @@ export default function About() {
 						<TechCard text="HTML" icon="logo-html5" />
 						<TechCard text="CSS" icon="logo-css3" />
 						<TechCard text="JavaScript" icon="logo-javascript" />
-						<TechCard text="ReactJS" icon="logo-react" />
-						<TechCard text="NodeJS" icon="logo-nodejs" />
-						<TechCard text="ExpressJS" image={expressLogo} />
-						<TechCard text="PostgreSQL" image={postgresqlLogo} />
+						<TechCard text="React.js" icon="logo-react" />
+						<TechCard text="Node.js" icon="logo-nodejs" />
+						<TechCard text="Next.js" image={nextjs} />
+						<TechCard text="Express.js" image={expressLogo} />
 						<TechCard text="MongoDB" image={mongodbLogo} />
 					</main>
 				</aside>
