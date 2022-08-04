@@ -29,32 +29,30 @@ export default function Work() {
 		},
 	];
 	return (
-		<>
-			<section
-				id="work"
-				className="w-full flex flex-col items-center justify-center pt-16 pb-32"
-			>
-				<header className={styles.header}>
-					<h3>My Work</h3>
-					<h1 className="font-sans text-5xl p-0.5 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
-						Some of my latest projects.
-					</h1>
-				</header>
+		<section
+			id="work"
+			className="w-full flex flex-col items-center justify-center pt-16 pb-32"
+		>
+			<header className={styles.header}>
+				<h3>My Work</h3>
+				<h1 className="font-sans text-5xl p-0.5 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500">
+					Some of my latest projects.
+				</h1>
+			</header>
 
-				<main className={styles.container}>
-					<div className="flex flex-col xl:flex-row gap-20 xl:gap-10 items-center justify-center">
-						{projects.map((project) => (
-							<ProjectCard
-								key={project.id}
-								title={project.title}
-								image={project.image}
-								liveLink={project.liveLink}
-								githubRepo={project.githubRepo}
-							/>
-						))}
-					</div>
-				</main>
-			</section>
-		</>
+			<main className={styles.container}>
+				<div className="flex flex-col xl:flex-row gap-20 xl:gap-10 items-center justify-center">
+					{projects.map((project) => (
+						<ProjectCard
+							key={project.id}
+							title={project.title}
+							image={project.image}
+							liveLink={project.liveLink}
+							githubRepo={project.githubRepo}
+						/>
+					))}
+				</div>
+			</main>
+		</section>
 	);
 }

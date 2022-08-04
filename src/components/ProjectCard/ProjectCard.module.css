@@ -1,5 +1,5 @@
 .card {
-	width: 330px;
+	width: 100%;
 	position: relative;
 	border-radius: 0.375rem;
 	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -61,7 +61,7 @@
 
 @media only screen and (min-width: 440px) {
 	.card {
-		width: 380px;
+		width: 100%;
 	}
 
 	.card .info {
@@ -70,20 +70,20 @@
 	}
 }
 
-@media only screen and (min-width: 540px) {
+/* @media only screen and (min-width: 540px) {
 	.card {
-		width: 400px;
+		width: 100%;
 	}
 
 	.card .info {
 		width: 400px;
 		margin-left: -200px;
 	}
-}
+} */
 
 @media only screen and (min-width: 640px) {
 	.card {
-		width: 480px;
+		width: 450px;
 	}
 
 	.card .info {
@@ -94,7 +94,7 @@
 
 @media only screen and (min-width: 1024px) {
 	.card {
-		width: 400px;
+		width: 50%;
 	}
 	.card .info {
 		width: 400px;

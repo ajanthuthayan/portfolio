@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html,
 body {
 	margin: 0;
@@ -7,14 +11,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #111;
-	min-width: 350px;
-	width: 100%;
-	max-width: 2000px;
-	margin: auto;
-}
-
-* {
-	box-sizing: border-box;
+	overflow: auto;
 }
 
 #root {
@@ -22,8 +19,24 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 95%;
-	margin: auto;
+	min-width: 350px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+}
+
+#about {
+	padding: 2rem;
+}
+
+#work {
+	padding: 2rem;
+}
+
+#contact {
+	padding: 2rem;
 }
 
 ion-icon {

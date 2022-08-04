@@ -19,7 +19,7 @@
 	text-transform: uppercase;
 }
 
-.container {
+.form-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -28,23 +28,30 @@
 	width: 100%;
 }
 
-.container h4 {
+.form-container h4 {
 	color: #f8f9fa;
 	font-weight: 700;
 	letter-spacing: 0.25rem;
 	text-transform: uppercase;
 }
 
-.container form {
+.form-container form {
 	background-color: rgb(25, 25, 25);
 	border-radius: 20px;
-	padding: 50px;
-	min-width: 300px;
-	width: 100%;
-	max-width: 450px;
+	padding: 1rem;
+	width: 120%;
 	text-align: left;
 }
 
-.container form label {
+.form-container form label {
 	color: #aab4bd;
+	width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+	.form-container form {
+		padding: 2rem;
+		width: 90%;
+		max-width: 600px;
+	}
 }
