@@ -47,8 +47,7 @@ export default function Contact() {
 						Need to reach me?
 					</h1>
 				</header>
-				<div className="flex bg-gradient-to-r from-purple-500 to-cyan-500 w-full rounded-2xl p-8">
-					<div></div>
+				<div className="flex bg-gradient-to-r from-purple-500 to-cyan-500 w-full rounded-2xl p-16">
 					<main className={styles["form-container"]}>
 						<form action="https://formspree.io/f/xknyybrw" method="POST">
 							<label>
