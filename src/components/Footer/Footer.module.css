@@ -19,12 +19,3 @@ footer small {
 	font-size: 0.5rem;
 	padding-bottom: 2rem;
 }
-
-.links-container {
-	padding: 1rem;
-	margin-bottom: -1rem;
-}
-
-.links-container ion-icon {
-	margin: 0.4rem;
-}
