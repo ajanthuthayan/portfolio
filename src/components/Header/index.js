@@ -1,5 +1,4 @@
 import styles from "./Header.module.css";
-import portrait from "./portrait.png";
 
 export default function Header() {
 	return (
