@@ -4,11 +4,8 @@ import portrait from "./portrait.png";
 export default function Header() {
 	return (
 		<header className={styles.header}>
-			<div className={styles["col1"]}>
-				<img src={portrait} alt="Ajanth Uthayan" />
-			</div>
-			<div className={styles["col2"]}>
-				<h1 className="font-sans text-7xl xs:text-8xl sm:text-9xl lg:text-9xl xl:text-10xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-400">
+			<div className={styles["col"]}>
+				<h1 className="font-sans text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-400">
 					Ajanth Uthayan
 				</h1>
 				<h2 className="font-sans text-2xl font-bold color-white">
