@@ -15,16 +15,17 @@ export default function Work() {
 		},
 		{
 			id: 2,
-			title: "Smart Brain",
-			liveLink: "https://uajanth-smartbrain.herokuapp.com/",
-			githubRepo: "https://github.com/uajanth/smartbrain",
+			title: "Chingu Collaborate",
+			liveLink: "",
+			githubRepo:
+				"https://github.com/chingu-voyages/v40-bears-team-31/tree/development",
 			image: project2,
 		},
 		{
 			id: 3,
-			title: "Simple Blog v2",
-			liveLink: "https://simple-blog-v2.vercel.app/",
-			githubRepo: "https://github.com/uajanth/simple-blog-v2",
+			title: "Cinema Management System",
+			liveLink: "",
+			githubRepo: "",
 			image: project3,
 		},
 	];
