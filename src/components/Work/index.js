@@ -24,8 +24,8 @@ export default function Work() {
 		{
 			id: 3,
 			title: "Cinema Management System",
-			liveLink: "",
-			githubRepo: "",
+			liveLink: "https://cms-uajanth.vercel.app/",
+			githubRepo: "https://github.com/uajanth/cinema-management-website",
 			image: project3,
 		},
 	];
