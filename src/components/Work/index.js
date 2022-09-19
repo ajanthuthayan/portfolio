@@ -16,9 +16,8 @@ export default function Work() {
 		{
 			id: 2,
 			title: "Chingu Collaborate",
-			liveLink: "",
-			githubRepo:
-				"https://github.com/chingu-voyages/v40-bears-team-31/tree/development",
+			liveLink: "https://chingu-collaborate.vercel.app/",
+			githubRepo: "https://github.com/uajanth/chingu-collaborate",
 			image: project2,
 		},
 		{
