@@ -12,14 +12,14 @@ export default function Header() {
 				</h2>
 				<div className={styles["links-container"]}>
 					<a
-						href="https://www.github.com/uajanth"
+						href="https://github.com/ajanthuthayan"
 						target="_blank"
 						rel="noreferrer"
 					>
 						<ion-icon name="logo-github"></ion-icon>
 					</a>
 					<a
-						href="https://www.linkedin.com/in/ajanthuthayan"
+						href="https://www.linkedin.com/in/ajanthuthayan/"
 						target="_blank"
 						rel="noreferrer"
 					>
